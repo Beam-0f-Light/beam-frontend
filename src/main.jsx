@@ -10,6 +10,14 @@ const router = createBrowserRouter([
     path: "/flowfuel-frontend",
     element: <App />,
   },
+  {
+    path: "/flowfuel-frontend/about",
+    element: <h1>About</h1>,
+  },
+  {
+    path: "/flowfuel-frontend/contact",
+    element: <h1>Contact</h1>,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

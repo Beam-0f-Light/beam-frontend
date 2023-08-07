@@ -20,16 +20,25 @@
 }
 
 .nav-links li {
-    font-size: 18px;
-    color: #ededed;
     list-style: none;
     display: inline-block;
-    font-weight: 500;
     margin-left: 35px;
-    transition: .3s;
 }
 
 .nav-links li:hover,
 .nav-links li.active {
+    color: #000;
+}
+
+.NavLink {
+    text-decoration: none;
+    color: #ededed;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.NavLink:hover,
+.NavLink.active {
     color: #000;
 }
