@@ -8,15 +8,15 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 const router = createBrowserRouter([
   {
     path: "/flowfuel-frontend",
-    element: <App />,
+    element: <App view='Home' />,
   },
   {
     path: "/flowfuel-frontend/about",
-    element: <h1>About</h1>,
+    element: <App view='About' />,
   },
   {
     path: "/flowfuel-frontend/contact",
-    element: <h1>Contact</h1>,
+    element: <App view='Contact' />,
   },
 ]);
 

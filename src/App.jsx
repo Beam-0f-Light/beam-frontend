@@ -1,11 +1,17 @@
 import NavBar from './components/NavBar'
-import Home from './components/Home'
+import Home from './views/Home/Home'
+import About from './views/About/About'
+import Contact from './views/Contact/Contact'
 
-function App() {
+
+function App({ view = 'Home' }) {
   return (
     <div className="App">
       <NavBar />
-      <Home />
+
+      {view === 'Home' && <Home />}
+      {view === 'About' && <About />}
+      {view === 'Contact' && <Contact />}
     </div>
   )
 }

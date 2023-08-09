@@ -1,13 +1,15 @@
 import './NavBar.css'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 
 function NavBar() {
     return (
         <header className="NavBar">
-            <h1 className="logo">FlowFuel</h1>
+            <Link to='/flowfuel-frontend/' className="logo-link">
+                <h1 className="logo">FlowFuel</h1>
+            </Link>
             <nav className='nav-links'>
                 <ul>
-                    <li className='active'>
+                    <li>
                         <NavLink exact to='/flowfuel-frontend/' activeClassName='active' className='NavLink'>Home</NavLink>
                     </li>
                     <li>
