@@ -13,7 +13,12 @@ function NavBar() {
     return (
         <header className="NavBar">
             <Link to='/flowfuel-frontend/' className="logo-link">
-                <h1 className="logo">FlowFuel</h1>
+                <h1 className="logo">
+                    Flow
+                    <span>
+                        Fuel
+                    </span>
+                </h1>
             </Link>
             <nav className={`nav-links ${showMenu ? 'show' : ''}`}>
                 <ul>

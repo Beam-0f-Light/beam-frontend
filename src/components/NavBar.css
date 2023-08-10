@@ -16,11 +16,17 @@
 }
 
 .logo {
+    font-family: 'Nothing You Could Do', cursive;
     font-size: 1.5rem;
     font-weight: 700;
     letter-spacing: 2px;
-    color: #000;
+    color: #9249A6;
     text-decoration: none;
+}
+
+.logo span {
+    font-family: 'Nothing You Could Do', cursive;
+    color: #88A2F2;
 }
 
 .nav-links {
@@ -63,7 +69,7 @@
 }
 
 .nav-links-bg {
-    background-color: #3c0078;
+    background-color: #490A73;
     position: absolute;
     top: -700px;
     left: -1000px;
@@ -82,6 +88,7 @@
 }
 
 .NavLink {
+    font-family: 'Nothing You Could Do', cursive;
     text-decoration: none;
     color: #ededed;
     font-size: 18px;
@@ -91,7 +98,7 @@
 
 .NavLink:hover,
 .NavLink.active {
-    color: #000;
+    color: #88A2F2;
 }
 
 .burguer {
