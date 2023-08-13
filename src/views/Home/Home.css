@@ -1,14 +1,31 @@
-.Home h1 {
-    font-size: 2.5rem;
-    font-weight: 300;
-    margin-bottom: 0.5em;
-    text-align: center;
-    color: #490A73;
+.home-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow-x: hidden;
 }
 
-.Home p {
-    font-size: 1.2rem;
-    font-weight: 300;
-    margin-bottom: 1.5em;
+.products-section {
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(136,162,242,1));
+}
+
+.products-section h2 {
     text-align: center;
+    padding-top: 2rem;
+    color: #ededed;
+    font-size: 2rem;
+    font-weight: 300rem;
+    letter-spacing: 0.1rem;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 1rem 8rem;
 }

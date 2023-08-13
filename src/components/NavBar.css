@@ -16,6 +16,7 @@
 }
 
 .logo {
+    -webkit-text-stroke: 0.5px #490A73;
     font-family: 'Nothing You Could Do', cursive;
     font-size: 1.5rem;
     font-weight: 700;
@@ -26,6 +27,7 @@
 
 .logo span {
     font-family: 'Nothing You Could Do', cursive;
+    font-size: 1.5rem;
     color: #88A2F2;
 }
 
