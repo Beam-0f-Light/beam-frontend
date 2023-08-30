@@ -7,15 +7,15 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
-    path: "/flowfuel-frontend",
+    path: "/beam-frontend",
     element: <App view='Home' />,
   },
   {
-    path: "/flowfuel-frontend/articles",
+    path: "/beam-frontend/articles",
     element: <App view='Articles' />,
   },
   {
-    path: "/flowfuel-frontend/contact",
+    path: "/beam-frontend/contact",
     element: <App view='Contact' />,
   },
 ]);

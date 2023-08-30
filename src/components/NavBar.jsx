@@ -12,7 +12,7 @@ function NavBar() {
 
     return (
         <header className="NavBar">
-            <Link to='/flowfuel-frontend/' className="logo-link">
+            <Link to='/beam-frontend/' className="logo-link">
                 <h1 className="logo">
                     Be
                     <span>
@@ -23,13 +23,13 @@ function NavBar() {
             <nav className={`nav-links ${showMenu ? 'show' : ''}`}>
                 <ul>
                     <li>
-                        <NavLink exact to='/flowfuel-frontend/' activeClassName='active' className='NavLink' onClick={() => {if (showMenu) handleClick()}}>Home</NavLink>
+                        <NavLink exact to='/beam-frontend/' activeClassName='active' className='NavLink' onClick={() => {if (showMenu) handleClick()}}>Home</NavLink>
                     </li>
                     <li>
-                        <NavLink exact to='/flowfuel-frontend/articles' activeClassName='active' className='NavLink' onClick={() => {if (showMenu) handleClick()}}>Articles</NavLink>
+                        <NavLink exact to='/beam-frontend/articles' activeClassName='active' className='NavLink' onClick={() => {if (showMenu) handleClick()}}>Articles</NavLink>
                     </li>
                     <li>
-                        <NavLink exact to='/flowfuel-frontend/contact' activeClassName='active' className='NavLink' onClick={() => {if (showMenu) handleClick()}}>Contact</NavLink>
+                        <NavLink exact to='/beam-frontend/contact' activeClassName='active' className='NavLink' onClick={() => {if (showMenu) handleClick()}}>Contact</NavLink>
                     </li>
                 </ul>
             </nav>
