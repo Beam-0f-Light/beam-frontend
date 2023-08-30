@@ -7,11 +7,12 @@ function Home() {
         <div className='home-container'>
             <Banner />
             <section className="products-section">
-                <h2>OUR PRODUCTS</h2>
-                <div className='products-container'>
+                {/* <h2>OUR PRODUCTS</h2> */}
+                <h4>Coming soon...</h4>
+                {/* <div className='products-container'>
                     <Card title='pepe' old_price='99' newPricea='33' dollar='3' exp_date='3' images='public/energy-drink.svg' />
                     <Card title='other' old_price='99' newPricea='33' dollar='3' exp_date='3' images='public/energy-drink.svg' />
-                </div>
+                </div> */}
             </section>
         </div>
     )

@@ -11,8 +11,8 @@ const router = createBrowserRouter([
     element: <App view='Home' />,
   },
   {
-    path: "/flowfuel-frontend/about",
-    element: <App view='About' />,
+    path: "/flowfuel-frontend/articles",
+    element: <App view='Articles' />,
   },
   {
     path: "/flowfuel-frontend/contact",

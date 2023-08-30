@@ -14,9 +14,9 @@ function NavBar() {
         <header className="NavBar">
             <Link to='/flowfuel-frontend/' className="logo-link">
                 <h1 className="logo">
-                    Flow
+                    Be
                     <span>
-                        Fuel
+                        am
                     </span>
                 </h1>
             </Link>
@@ -26,7 +26,7 @@ function NavBar() {
                         <NavLink exact to='/flowfuel-frontend/' activeClassName='active' className='NavLink' onClick={() => {if (showMenu) handleClick()}}>Home</NavLink>
                     </li>
                     <li>
-                        <NavLink exact to='/flowfuel-frontend/about' activeClassName='active' className='NavLink' onClick={() => {if (showMenu) handleClick()}}>About</NavLink>
+                        <NavLink exact to='/flowfuel-frontend/articles' activeClassName='active' className='NavLink' onClick={() => {if (showMenu) handleClick()}}>Articles</NavLink>
                     </li>
                     <li>
                         <NavLink exact to='/flowfuel-frontend/contact' activeClassName='active' className='NavLink' onClick={() => {if (showMenu) handleClick()}}>Contact</NavLink>
