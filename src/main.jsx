@@ -17,6 +17,10 @@ const router = createBrowserRouter([
     path: "/beam-frontend/contact",
     element: <App view='Contact' />,
   },
+  {
+    path: "/beam-frontend/articles/article",
+    element: <App view='Article' />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

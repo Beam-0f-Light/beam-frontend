@@ -1,9 +1,10 @@
-import './Articles.css'
+import './Article.css'
 
-function Articles() {
+function Article() {
     return (
-        <div className="articles-container">
+        <div className="article-container">
             <h1>Rendimiento Cognitivo</h1>
+            <img src="/beam-frontend/src/assets/images/blue-drink.jpg" alt="test" />
             <p>¿Buscas llevar tus habilidades mentales al siguiente nivel?
                 ¿Quieres conocer más sobre cómo los nootrópicos pueden potenciar 
                 tu memoria, enfoque y creatividad? ¡Has llegado al lugar correcto! <br /><br />
@@ -14,16 +15,8 @@ function Articles() {
                 
                 Comprender los matices del rendimiento cognitivo puede ser un viaje 
                 fascinante, y queremos ser tu guía en esta exploración.</p>
-            <div className='articles-list'>
-                <h2>Artículos</h2>
-                <ul>
-                    <li>
-                        <a href="/beam-frontend/articles/article" target="_blank" rel="noreferrer">¿Qué son los nootrópicos?</a>
-                    </li>
-                </ul>
-            </div>
         </div>
     )
 }
 
-export default Articles
+export default Article
