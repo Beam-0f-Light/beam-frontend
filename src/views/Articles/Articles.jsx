@@ -1,4 +1,5 @@
 import './Articles.css'
+import { Link } from 'react-router-dom'
 
 function Articles() {
     return (
@@ -18,7 +19,7 @@ function Articles() {
                 <h2>Artículos</h2>
                 <ul>
                     <li>
-                        <a href="/beam-frontend/articles/article" target="_blank" rel="noreferrer">¿Qué son los nootrópicos?</a>
+                        <Link exact to='/beam-frontend/articles/article' className='link' >¿Qué son los nootrópicos?</Link>
                     </li>
                 </ul>
             </div>
