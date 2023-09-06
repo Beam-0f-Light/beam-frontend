@@ -13,7 +13,7 @@ function NavBar() {
     return (
         <header className="NavBar">
             <Link to='/beam-frontend/' className="logo-link">
-                <img className='logo' src="/provisional_logo.png" alt="logo" />
+                <img className='logo' src="/short_gold.svg" alt="logo" />
             </Link>
             <nav className={`nav-links ${showMenu ? 'show' : ''}`}>
                 <ul>
